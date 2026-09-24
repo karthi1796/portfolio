@@ -10,8 +10,8 @@ export const profile = {
   githubHandle: "karthi1796",
   linkedin: "https://www.linkedin.com/in/Selvarajan-Karthigan",
   linkedinHandle: "Selvarajan-Karthigan",
-  cv: "/Selvarajan_Karthigan_CV.pdf",
-  headshot: "/headshot.jpg",
+  cv: `${import.meta.env.BASE_URL}Selvarajan_Karthigan_CV.pdf`,
+  headshot: `${import.meta.env.BASE_URL}headshot.jpg`,
 };
 
 export const about = {
